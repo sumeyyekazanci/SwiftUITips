@@ -11,6 +11,7 @@
 		D7EFDAB72A19327C00FF758E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EFDAB62A19327C00FF758E /* ContentView.swift */; };
 		D7EFDAB92A19327E00FF758E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7EFDAB82A19327E00FF758E /* Assets.xcassets */; };
 		D7EFDABC2A19327E00FF758E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7EFDABB2A19327E00FF758E /* Preview Assets.xcassets */; };
+		D7EFDAC42A1932C000FF758E /* TextTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EFDAC32A1932C000FF758E /* TextTips.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D7EFDAB62A19327C00FF758E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D7EFDAB82A19327E00FF758E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7EFDABB2A19327E00FF758E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7EFDAC32A1932C000FF758E /* TextTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTips.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		D7EFDAB32A19327C00FF758E /* SwiftUITips */ = {
 			isa = PBXGroup;
 			children = (
+				D7EFDAC22A19328C00FF758E /* Text */,
 				D7EFDAB42A19327C00FF758E /* SwiftUITipsApp.swift */,
 				D7EFDAB62A19327C00FF758E /* ContentView.swift */,
 				D7EFDAB82A19327E00FF758E /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				D7EFDABB2A19327E00FF758E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D7EFDAC22A19328C00FF758E /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				D7EFDAC32A1932C000FF758E /* TextTips.swift */,
+			);
+			path = Text;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				D7EFDAB72A19327C00FF758E /* ContentView.swift in Sources */,
 				D7EFDAB52A19327C00FF758E /* SwiftUITipsApp.swift in Sources */,
+				D7EFDAC42A1932C000FF758E /* TextTips.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
