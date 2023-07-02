@@ -23,7 +23,7 @@ struct TextFormatting: View {
                 Text("Bold").bold()
                 Text("Italic").italic()
                 Text("Strikethrough").strikethrough()
-                Text("Green Strikethrough")
+                Text("Red Strikethrough")
                     .strikethrough(modifierActive, color: .red)
                 Text("Text Color (ForegroundColor)").foregroundColor(.indigo)
                 Text("Underline").underline()
