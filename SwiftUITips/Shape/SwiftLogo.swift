@@ -67,25 +67,23 @@ struct SwiftLogo: Shape {
     }
 }
 
-struct SwiftLogo_Previews: PreviewProvider {
-    static var previews: some View {
-        ZStack {
-            RoundedRectangle(cornerRadius: 100)
-                .fill(
-                    LinearGradient(
-                        colors: [
-                            Color(red: 253.0/255, green: 38.0/255, blue: 33.0/255),
-                            Color(red: 248.0/255, green: 137.0/255, blue: 54.0/255)
-                        ],
-                        startPoint: .bottomTrailing,
-                        endPoint: .topLeading
-                    )
+#Preview {
+    ZStack {
+        RoundedRectangle(cornerRadius: 100)
+            .fill(
+                LinearGradient(
+                    colors: [
+                        Color(red: 253.0/255, green: 38.0/255, blue: 33.0/255),
+                        Color(red: 248.0/255, green: 137.0/255, blue: 54.0/255)
+                    ],
+                    startPoint: .bottomTrailing,
+                    endPoint: .topLeading
                 )
-            SwiftLogo()
-                .fill(.white)
-                .padding(100)
-        }
-        .padding(50)
-        .aspectRatio(1, contentMode: .fit)
+            )
+        SwiftLogo()
+            .fill(.white)
+            .padding(100)
     }
+    .padding(50)
+    .aspectRatio(1, contentMode: .fit)
 }

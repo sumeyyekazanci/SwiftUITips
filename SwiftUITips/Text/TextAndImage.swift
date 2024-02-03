@@ -22,8 +22,6 @@ struct TextAndImage: View {
     }
 }
 
-struct TextAndImage_Previews: PreviewProvider {
-    static var previews: some View {
-        TextAndImage()
-    }
+#Preview {
+    TextAndImage()
 }

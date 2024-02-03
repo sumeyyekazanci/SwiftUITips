@@ -34,8 +34,6 @@ struct TextFormatting: View {
     }
 }
 
-struct TextFormatting_Previews: PreviewProvider {
-    static var previews: some View {
-        TextFormatting()
-    }
+#Preview {
+    TextFormatting()
 }

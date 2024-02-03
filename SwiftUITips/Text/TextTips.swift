@@ -61,8 +61,6 @@ struct TextTips: View {
     }
 }
 
-struct BasicText_Previews: PreviewProvider {
-    static var previews: some View {
-        TextTips()
-    }
+#Preview {
+    TextTips()
 }
