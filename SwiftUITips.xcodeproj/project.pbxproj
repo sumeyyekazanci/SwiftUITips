@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D70B95B32A520AC50085932A /* TextAndImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70B95B22A520AC50085932A /* TextAndImage.swift */; };
 		D70B95B52A5218190085932A /* TextFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70B95B42A5218190085932A /* TextFormatting.swift */; };
+		D741E6132B94744000AE5C08 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D741E6122B94744000AE5C08 /* Color+.swift */; };
 		D7C025E32A1A805D005FFACA /* SwiftLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C025E22A1A805D005FFACA /* SwiftLogo.swift */; };
 		D7EFDAB52A19327C00FF758E /* SwiftUITipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EFDAB42A19327C00FF758E /* SwiftUITipsApp.swift */; };
 		D7EFDAB72A19327C00FF758E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EFDAB62A19327C00FF758E /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		D70B95B22A520AC50085932A /* TextAndImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAndImage.swift; sourceTree = "<group>"; };
 		D70B95B42A5218190085932A /* TextFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormatting.swift; sourceTree = "<group>"; };
+		D741E6122B94744000AE5C08 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		D7C025E22A1A805D005FFACA /* SwiftLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLogo.swift; sourceTree = "<group>"; };
 		D7EFDAB12A19327C00FF758E /* SwiftUITips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7EFDAB42A19327C00FF758E /* SwiftUITipsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITipsApp.swift; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D741E6112B94742900AE5C08 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D741E6122B94744000AE5C08 /* Color+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		D7C025E12A1A804C005FFACA /* Shape */ = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +77,7 @@
 		D7EFDAB32A19327C00FF758E /* SwiftUITips */ = {
 			isa = PBXGroup;
 			children = (
+				D741E6112B94742900AE5C08 /* Extension */,
 				D7C025E12A1A804C005FFACA /* Shape */,
 				D7EFDAC22A19328C00FF758E /* Text */,
 				D7EFDAB42A19327C00FF758E /* SwiftUITipsApp.swift */,
@@ -165,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D741E6132B94744000AE5C08 /* Color+.swift in Sources */,
 				D7C025E32A1A805D005FFACA /* SwiftLogo.swift in Sources */,
 				D7EFDAB72A19327C00FF758E /* ContentView.swift in Sources */,
 				D7EFDAB52A19327C00FF758E /* SwiftUITipsApp.swift in Sources */,
